@@ -36,6 +36,7 @@ print("Computer chose:", c)
 #if (x == "paper") and (c == "rock")
  #   print ("Paper beats rock")
 
+
 #if (c == "rock") and (x == "scissors)
 #if (c == "scissors") and (x == "paper")
 #if (c == "paper") and (x == "rock")
