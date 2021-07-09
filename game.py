@@ -15,7 +15,7 @@ print (x)
 if (x == "rock") or (x == "paper") or (x == "scissors"):
     print("VALID")
 else:
-    print("INVALID")
+    print("Whoops! Please try again :)")
     exit()
 
 #Generate computer choice
