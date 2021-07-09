@@ -1,3 +1,7 @@
+print("-------------------")
+
+##PLAYER_NAME = os.getenv(“PLAYER_NAME", default="Player One")
+
 print("Hello 'Player One'! Dare you attempt a round of Rock, Paper, Scissors?")
 
 y = input("You decide: 'Yes' or 'No'? ")
@@ -7,7 +11,7 @@ if (y == "Yes"):
 else:
     print("Oh well. I live to play another day!")
     exit()
-
+print("-------------------")
 print("Rock, Paper, Scissors, Shoot!")
 
 import random
@@ -19,13 +23,14 @@ x = input("Please choose 'rock', 'paper', or 'scissors': ")
 print (x)
 
  # Validate user input
+ #Added capital letters as options for a better user experience (not getting kicked out of the game)
 
-if (x == "rock") or (x == "paper") or (x == "scissors"):
+if (x == "rock") or (x == "paper") or (x == "scissors"): (#x == "Rock") or (x == "Paper") or (x == "Scissors"):
     print("VALID")
 else:
     print("Whoops! Please make sure you enter 'rock', 'paper', or 'scissors'")
     exit()
-
+print("-------------------")
 #Generate computer choice
 #SOURCE: in-class stack overflow
 
@@ -38,6 +43,7 @@ print("You chose:", x)
 print("Computer chose:", c)
 
 #Determine winner
+print("-------------------")
 
 if (x == "rock") and (c == "scissors"):
     print("Rock beats scissors. YOU WIN!")
@@ -60,7 +66,7 @@ if (c == "paper") and (x == "rock"):
 
 if (x == c):
     print ("It's a tie!")
-
+print("-------------------")
  #Display final results
 print("Play again?")
 
