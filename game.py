@@ -30,17 +30,26 @@ print("Computer chose:", c)
 #Determine winner
 
 if (x == "rock") and (c == "scissors"):
-    print("Rock beats scissors. You win!")
+    print("Rock beats scissors. YOU WIN!")
 
 if (x == "scissors") and (c == "paper"):
-    print ("Scissors beat paper. You win!")
+    print("Scissors beat paper. YOU WIN!")
 
 if (x == "paper") and (c == "rock"):
-    print ("Paper beats rock. You win!")
+    print("Paper beats rock. YOU WIN!")
 
 
-#if (c == "rock") and (x == "scissors):
-#if (c == "scissors") and (x == "paper"):
-#if (c == "paper") and (x == "rock"):
+if (c == "rock") and (x == "scissors"):
+    print("Rock beats scissors. Computer wins.")
+
+if (c == "scissors") and (x == "paper"):
+    print("Scissors beat paper. Computer wins")
+
+if (c == "paper") and (x == "rock"):
+    print("Paper beats rock. Computer wins.")
+
+if (x == c):
+    print ("It's a tie!")
 
  #Display final results
+print("Play again?")
