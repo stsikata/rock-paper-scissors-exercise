@@ -29,16 +29,18 @@ print("Computer chose:", c)
 
 #Determine winner
 
-#if (x == "rock") and (c == "scissors")
-    #print ("Rock beats scissors")
-#if (x == "scissors") and (c == "paper")
-    #print ("Scissors beat paper")
-#if (x == "paper") and (c == "rock")
- #   print ("Paper beats rock")
+if (x == "rock") and (c == "scissors"):
+    print("Rock beats scissors. You win!")
+
+if (x == "scissors") and (c == "paper"):
+    print ("Scissors beat paper. You win!")
+
+if (x == "paper") and (c == "rock"):
+    print ("Paper beats rock. You win!")
 
 
-#if (c == "rock") and (x == "scissors)
-#if (c == "scissors") and (x == "paper")
-#if (c == "paper") and (x == "rock")
+#if (c == "rock") and (x == "scissors):
+#if (c == "scissors") and (x == "paper"):
+#if (c == "paper") and (x == "rock"):
 
  #Display final results
