@@ -1,3 +1,13 @@
+print("Hello 'Player One'! Dare you attempt a round of Rock, Paper, Scissors?")
+
+y = input("You decide: 'Yes' or 'No'? ")
+
+if (y == "Yes"):
+    print("Let's begin!")
+else:
+    print("Oh well. I live to play another day!")
+    exit()
+
 print("Rock, Paper, Scissors, Shoot!")
 
 import random
@@ -40,16 +50,18 @@ if (x == "paper") and (c == "rock"):
 
 
 if (c == "rock") and (x == "scissors"):
-    print("Rock beats scissors. Computer wins.")
+    print("Rock beats scissors. The computer wins.")
 
 if (c == "scissors") and (x == "paper"):
-    print("Scissors beat paper. Computer wins")
+    print("Scissors beat paper. The computer wins")
 
 if (c == "paper") and (x == "rock"):
-    print("Paper beats rock. Computer wins.")
+    print("Paper beats rock. The computer wins.")
 
 if (x == c):
     print ("It's a tie!")
 
  #Display final results
 print("Play again?")
+
+
