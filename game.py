@@ -28,7 +28,7 @@ print (x)
 if (x == "rock") or (x == "paper") or (x == "scissors"): (#x == "Rock") or (x == "Paper") or (x == "Scissors"):
     print("VALID")
 else:
-    print("Whoops! Please make sure you enter 'rock', 'paper', or 'scissors'")
+    print("Whoops! Please make sure you enter 'rock', 'paper', or 'scissors' ")
     exit()
 print("-------------------")
 #Generate computer choice
