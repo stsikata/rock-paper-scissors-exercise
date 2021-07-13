@@ -47,26 +47,28 @@ print("Computer chose:", c)
 #Determine winner
 print("-------------------")
 
+#add capitals for human input
+
 if (x == "rock") and (c == "scissors"):
     print("Rock beats scissors. YOU WIN!")
 
-if (x == "scissors") and (c == "paper"):
+elif (x == "scissors") and (c == "paper"):
     print("Scissors beat paper. YOU WIN!")
 
-if (x == "paper") and (c == "rock"):
+elif (x == "paper") and (c == "rock"):
     print("Paper beats rock. YOU WIN!")
 
 
-if (c == "rock") and (x == "scissors"):
+elif (c == "rock") and (x == "scissors"):
     print("Rock beats scissors. The computer wins.")
 
-if (c == "scissors") and (x == "paper"):
+elif (c == "scissors") and (x == "paper"):
     print("Scissors beat paper. The computer wins.")
 
-if (c == "paper") and (x == "rock"):
+elif (c == "paper") and (x == "rock"):
     print("Paper beats rock. The computer wins.")
 
-if (x == c):
+elif (x == c):
     print ("It's a tie!")
 print("-------------------")
  #Display final results
