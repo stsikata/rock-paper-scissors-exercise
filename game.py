@@ -1,10 +1,21 @@
 print("-------------------")
 
-# need to figure out adding user name
-# USER_NAME = .env("USER_NAME", default="Player One")
-# print("Hello "USER_NAME"! Dare you attempt a round of Rock, Paper, Scissors?")
+import random
+import os
+from dotenv import load_dotenv
 
-print("Hello 'Player One'! Dare you attempt a round of Rock, Paper, Scissors?")
+load_dotenv() #> loads contents of the .env file into the script's environment
+
+z = os.getenv("PLAYER_NAME")
+
+print(z) # reads the variable from the environment
+
+# USER_NAME = .env("USER_NAME", default="Player One")
+
+print("Hello", z)
+print("Dare you attempt a round of Rock, Paper, Scissors?")
+
+#print("Hello 'Player One'! Dare you attempt a round of Rock, Paper, Scissors?")
 
 y = input("You decide: 'Yes' or 'No'? ")
 
@@ -16,7 +27,7 @@ else:
 print("-------------------")
 print("Rock, Paper, Scissors, Shoot!")
 
-import random
+
 
 # Ask for a user input
 # SOURCE: in-class
