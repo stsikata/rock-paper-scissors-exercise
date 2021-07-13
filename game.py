@@ -23,9 +23,9 @@ x = input("Please choose 'rock', 'paper', or 'scissors': ")
 print (x)
 
  # Validate user input
- #Added capital letters as options for a better user experience (not getting kicked out of the game)
+ #Added options for capital letters at beginning of words for better UX (not getting kicked out of the game)
 
-if (x == "rock") or (x == "paper") or (x == "scissors"): #(x == "Rock") or (x == "Paper") or (x == "Scissors"):
+if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "Rock") or (x == "Paper") or (x == "Scissors"):
     print("VALID")
 else:
     print("Whoops! Please make sure you enter 'rock', 'paper', or 'scissors'. ")
