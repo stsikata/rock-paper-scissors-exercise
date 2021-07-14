@@ -54,23 +54,23 @@ print("-------------------")
 
 #add capitals for human input
 
-if (x == "rock") and (c == "scissors"):
+if (x == "rock") or (x == "Rock") and (c == "scissors"):
     print("Rock beats scissors. YOU WIN!")
 
-elif (x == "scissors") and (c == "paper"):
+elif (x == "scissors") or (x == "Scissors") and (c == "paper"):
     print("Scissors beat paper. YOU WIN!")
 
-elif (x == "paper") and (c == "rock"):
+elif (x == "paper") or (x == "Paper") and (c == "rock"):
     print("Paper beats rock. YOU WIN!")
 
 
-elif (c == "rock") and (x == "scissors"):
+elif (c == "rock") and (x == "scissors") or (x == "Scissors"):
     print("Rock beats scissors. The computer wins.")
 
-elif (c == "scissors") and (x == "paper"):
+elif (c == "scissors") and (x == "paper") or (x == "Paper"):
     print("Scissors beat paper. The computer wins.")
 
-elif (c == "paper") and (x == "rock"):
+elif (c == "paper") and (x == "rock") or (x == "Rock"):
     print("Paper beats rock. The computer wins.")
 
 elif (x == c):
