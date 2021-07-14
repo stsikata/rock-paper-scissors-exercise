@@ -8,14 +8,9 @@ load_dotenv() #> loads contents of the .env file into the script's environment
 
 z = os.getenv("PLAYER_NAME")
 
-print(z) # reads the variable from the environment
-
-# USER_NAME = .env("USER_NAME", default="Player One")
-
-print("Hello", z)
+print("Hello", z) # reads the variable from the environment
 print("Dare you attempt a round of Rock, Paper, Scissors?")
 
-#print("Hello 'Player One'! Dare you attempt a round of Rock, Paper, Scissors?")
 
 y = input("You decide: 'Yes' or 'No'? ")
 
